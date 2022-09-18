@@ -17,14 +17,7 @@ a {
 	text-decoration: none;
 }
 
-.supercontenedor {
-	display: flex;
-	flex-direction: column;
-	position: sticky;
-	top: 0;
-	overflow: hidden;
-	height: 20vh;
-}
+
 .hero {
 	background: #fff;
 	display: flex;
@@ -77,7 +70,6 @@ nav .indicador {
 	position: absolute;
 	bottom: 0;
 	transition: .3s ease-out all;
-	/* transform: translate(-500px); */
 }
 
 .seccion {
@@ -85,7 +77,6 @@ nav .indicador {
 	max-width: 800px;
 	width: 90%;
 	margin: auto;
-
 	padding-top: 0px;
 	display: flex;
 	flex-direction: column;
@@ -101,7 +92,7 @@ nav .indicador {
 .seccion .card {
 	background: #fff;
 	height: 90%;
-	padding: 40px;
+	padding: 0px;
 	border-radius: 5px;
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
@@ -120,7 +111,7 @@ nav .indicador {
 
 .seccion img {
 	width: 100%;
-	vertical-align: top;
+	vertical-align: center ;
 	margin-bottom: 20px;
 }
 
