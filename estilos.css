@@ -95,6 +95,7 @@ nav .indicador {
 	padding: 0px;
 	border-radius: 5px;
 	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+	margin-top: 20px;
 }
 
 .seccion h1 {
@@ -107,6 +108,7 @@ nav .indicador {
 	margin-bottom: 40px;
 	color: #494949;
 	font-size: 20px;
+	padding: 30px;
 }
 
 .seccion img {
